@@ -1,0 +1,95 @@
+@font-face {
+  font-family: AlataRegular;
+  src: url(fonts/Alata-Regular.woff);
+}
+
+@font-face {
+  font-family: CrimsonTextRegular;
+  src: url(fonts/CrimsonText-Regular.woff);
+}
+
+header {
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.navigation-bar {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration:underline;
+  color: #222222;
+  border-radius: 10%;
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: AlataRegular;
+  font-size: large;
+}
+
+.page-title {
+  color: #222222;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: AlataRegular;
+}
+
+.span {
+  color: #222222;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: AlataRegular;
+}
+
+.page-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 25px 25px 25px 70px;
+  justify-content: center;
+  max-width: 1200px;
+  font-family: AlataRegular;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: AlataRegular;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: AlataRegular;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
